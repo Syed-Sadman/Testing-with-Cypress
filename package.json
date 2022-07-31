@@ -1,0 +1,14 @@
+{
+  "name": "cypress-101",
+  "version": "1.0.0",
+  "description": "\"testing cypress\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "start cypress"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.3.1"
+  }
+}
