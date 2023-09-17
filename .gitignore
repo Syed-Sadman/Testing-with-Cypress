@@ -7,7 +7,7 @@
 
 cypress/videos
 cypress/screenshots
-
+/cypress.config.js
 # testing
 /coverage
 

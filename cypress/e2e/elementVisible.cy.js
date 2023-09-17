@@ -1,18 +1,19 @@
 beforeEach(() => {
   cy.log("I run before every test in every spec file!!!!!!");
-  cy.visit("https://allelementtestprod201.dcms.site");
+  // cy.visit("https://allelementtestprod201.dcms.site");//// cms site
+  cy.visit("https://allelementtestsyedsadman.dorik.io"); ///static
 });
 
 describe("Accordion", () => {
   it("Passed", () => {
-    cy.get(".dorik-accordion-xf1breje").should("be.visible");
+    cy.get('[data-cytest="accordion"]').should("be.visible");
   });
 });
 
 describe("Contact Form", () => {
   it("Passed", () => {
-    cy.get("#snhqj2pp").should("be.visible");
-    cy.get("#snhqj2pp").within(($form) => {
+    cy.get('[data-cytest="contactform"]').should("be.visible");
+    cy.get('[data-cytest="contactform"]').within(($form) => {
       cy.intercept({ method: "POST", url: "/api/action/contact" }).as(
         "conformpass"
       );
@@ -42,7 +43,7 @@ describe("Countdown Timer", () => {
 
 describe("Counter Circle", () => {
   it("Passed", () => {
-    cy.get(".counter-wrapper").should("be.visible");
+    cy.get(".counter-wrggggggapper").should("be.visible");
   });
 });
 

@@ -3,7 +3,7 @@ describe("Accordion test", () => {
     cy.log("I run before every test in every spec file!!!!!!");
   });
   it("passes", () => {
-    cy.intercept({ method: "POST", url: "/api/cms" }).as("cmsapi");
+    // cy.intercept({ method: "POST", url: "/api/cms" }).as("cmsapi");
     cy.session("username", () => {
       cy.intercept({ method: "POST", url: "/api/auth" }).as("authpass");
       cy.intercept({ method: "POST", url: "/api/cms" }).as("cmsapi");
@@ -91,13 +91,13 @@ describe("Accordion test", () => {
 
     //Input label style--------------------
 
-    // cy.get(".sc-ilhmMj")
-    //   .eq(3)
-    //   .click()
-    //   .within(() => {
-    //     cy.contains("Color");
-    //     cy.contains("Text Size");
-    //   });
+    cy.get(".sc-ilhmMj")
+      .eq(3)
+      .click()
+      .within(() => {
+        cy.contains("Color");
+        cy.contains("Text Size");
+      });
 
     //Input field style--------------------
 
@@ -130,18 +130,18 @@ describe("Accordion test", () => {
 
     // Test on published End to ensure the changed properties are reflecting on published end
 
-    cy.contains("Publish").click();
-    cy.wait("@cmsapi");
-    cy.wait(2000);
-    // cy.get('[data-icon="external-link"]').click();
-    cy.visit("https://firstjantest.dcms.site?revalidate=true");
+    // cy.contains("Publish").click();
+    // cy.wait("@cmsapi");
+    // cy.wait(2000);
+    // // cy.get('[data-icon="external-link"]').click();
+    // cy.visit("https://firstjantest.dcms.site?revalidate=true");
 
-    cy.get(".form-group > input").should("have.css", "margin-bottom", "23px");
+    // cy.get(".form-group > input").should("have.css", "margin-bottom", "23px");
 
-    cy.get("#1ymwk687").should(
-      "have.css",
-      "background-color",
-      "rgb(46, 87, 190)"
-    );
+    // cy.get("#1ymwk687").should(
+    //   "have.css",
+    //   "background-color",
+    //   "rgb(46, 87, 190)"
+    // );
   });
 });

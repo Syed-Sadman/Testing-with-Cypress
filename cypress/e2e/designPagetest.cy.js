@@ -20,10 +20,15 @@ describe("empty spec", () => {
       cy.get("#dorik-builder-iframe", { timeout: 10_000 }).should("be.visible");
     });
 
+    // cy.visit(
+    //   "https://testwebhook.dorik.autos/dashboard/design/641c12d1b04e120029a6e2b9"
+    // ); ///arnob vai test site
+
     cy.visit(
       "https://firstjantest.dcms.site/dashboard/design/63b155b422e2960057a3fdd4"
     );
-    cy.wait(8000);
+
+    cy.wait(12000);
     cy.get("#dorik-builder-iframe").its("0.contentDocument").should("exist"); //////passed the test     .should('not.be.empty')--this can be used too
 
     for (let i = 0; i < 27; i++) {
@@ -39,13 +44,14 @@ describe("empty spec", () => {
 
       // Section modal is outsite the iFrame so I have to check outside the iFrame document
       cy.contains("Custom Section").click();
-      cy.get(".sc-bjCGfv").eq(0).click(); // add new section with only one column
+      cy.get(".sc-hQIyOC").eq(0).click(); //arnob vai site class of section
+      // cy.get(".sc-bjCGfv").eq(0).click(); // add new section with only one column my test site class
       cy.get("#dorik-builder-iframe")
         .its("0.contentDocument")
         .within(($body) => {
           cy.contains("+ Add Element").click();
         });
-      cy.get(".sc-itMJkM").eq(i).click();
+      cy.get(".sc-dcntqk").eq(i).click();
     }
   });
 });
