@@ -1,0 +1,16 @@
+{
+  "data": {
+    "refreshToken": {
+      "token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZDhmODZmNmIzNGNmMDAxZTcwZmE2YSIsInBsYXRmb3JtIjoiZG9yaWsiLCJzaXRlSWQiOiI2MTIzZWU1MzA4ZjE3ODgyYzVkZDExNDMiLCJzdGF0dXMiOiJhY3RpdmUiLCJyb2xlIjoic3lzX2FkbWluIiwicGxhbiI6IkFHRU5DWV8yNSIsImlhdCI6MTcwNTIxNDYzOCwiZXhwIjoxNzA1MjE0OTM4fQ.pOXMlHGujSCEyoS81W8Nb2KyPgm0m7pkPNIhVCfDwdBFs9Y2DegrODeHJbUjbPTsthnXNGBESmFc5N39lvf3UfY4yjbsQ7oT1XrB53nPonc47rp-5trjVuI1HNn047_tf6MQ_RGEbHUCXYZOUBP9r2bsSkwCgbSgCnpgrqiAuETVxgxqSKPB5iV5HZO3X7mmQy7mmPiIOGM9esGZDtavKLybl9p4U97Vbex6LTfPEEGDE7E36_LAEjq8b0mO7ko2ZQcMT_xPIAwzB5KqgPx-mLvL4FPHTfEvIUeg7_P4LjfJRWRDtnQqXjhNagCNBvWu7onH7zBr0og0tCK-LVM_oCqZrjpgcomrmxI-xC0913Kmh5anXU0oMmkK5j-Zr2vfpRQg0Fwf9u9gqyvbLRuJD7KGHS6osatFepY7hJoRhqPwAtaaWBYGdTsGWqtdCQssQp6bsg-chcG7rTM56mX8iw-YGspr9jNKmssvrMHLEVdLsPQNpHEyKalnA2rYORp_h9nvEK9si8OPXN_2qYGrOJXqusvQi5qp-mPgJvFUn5IIt8GjQTI-DLUSRliGzo5vSLyLNMxdN-_fIyk6WhqxaqaR9WMH_T67xZjZq07GSU6K1VMvZCFBFABqcWwryGzvhJ8gQigRhtEbTH-E8obrBlTAjQb36yumnITPSnER4xY",
+      "success": true,
+      "message": null,
+      "expiresAt": 1705214938,
+      "user": {
+        "id": "62d8f86f6b34cf001e70fa6a",
+        "role": "sys_admin",
+        "createdAt": "2022-07-21T06:55:43.000Z",
+        "meta": null
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "data": {
+    "profile": {
+      "id": "62d8f86f6b34cf001e70fa6a",
+      "role": "sys_admin",
+      "status": "active",
+      "suspendReason": null,
+      "createdAt": "2022-07-21T06:55:43.000Z",
+      "meta": {
+        "isAnalyticsEnabled": true,
+        "totalSites": 24,
+        "publishedSites": 19,
+        "membership": {
+          "status": null,
+          "planId": 0,
+          "renewAt": null,
+          "subscriptionId": null
+        },
+        "plan": {
+          "billingType": "YEARLY",
+          "status": "active",
+          "planId": 48467,
+          "renewAt": "2024-11-26T00:00:00.000Z",
+          "nextPrice": 449,
+          "nextCurrency": "USD",
+          "subscriptionId": 610684
+        }
+      }
+    }
+  }
+}

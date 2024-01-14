@@ -15,17 +15,12 @@ describe("empty spec", () => {
       cy.wait("@cmsapi");
 
       cy.wait(15000);
-      // cy.wait("@authpass");
 
       cy.get("#dorik-builder-iframe", { timeout: 10_000 }).should("be.visible");
     });
 
-    // cy.visit(
-    //   "https://testwebhook.dorik.autos/dashboard/design/641c12d1b04e120029a6e2b9"
-    // ); ///arnob vai test site
-
     cy.visit(
-      "https://firstjantest.dcms.site/dashboard/design/63b155b422e2960057a3fdd4"
+      "https://firstjantest.dorikio.com/dashboard/design/63b155b422e2960057a3fdd4"
     );
 
     cy.wait(12000);
@@ -39,21 +34,24 @@ describe("empty spec", () => {
           // cy.get(".dorik-heading-c44wu1fg").click({ position: "left" }); ////heading element general settings
           // cy.get(".dorik-heading-c44wu1fg").rightclick(); ///rightClick working fine and showing the contextmenu
           cy.get('[itemtype="section"]').eq(i).trigger("mouseover"); //section
-          cy.contains("Add New Section").click();
+          cy.get(".sc-fEXmlR").click(); //adding new section
+          // cy.contains("Add New Section").click();
         });
 
       // Section modal is outsite the iFrame so I have to check outside the iFrame document
       cy.contains("Custom Section").click();
-      cy.get(".sc-hQIyOC").eq(0).click(); //arnob vai site class of section
+      cy.wait(2000);
+      cy.get(".sc-hgRfpC").eq(0).click(); //arnob vai site class of section
       // cy.get(".sc-bjCGfv").eq(0).click(); // add new section with only one column my test site class
       cy.get("#dorik-builder-iframe")
         .its("0.contentDocument")
         .within(($body) => {
-          cy.contains("+ Add Element").click();
+          // cy.get('[itemtype="section"]').eq(i + 1); //section
+          cy.get(".dorik-bcs").click();
+          // cy.contains("Add Element").click();
         });
-      cy.get(".sc-dcntqk").eq(i).click();
+      cy.wait(1000);
+      cy.get(".sc-Dmqmp").eq(i).click();
     }
   });
 });
-
-// cy.get(".DraftEditor-editorContainer").click().type("test typing");////for typing text inside heading element

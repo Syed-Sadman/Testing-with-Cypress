@@ -1,0 +1,8 @@
+{
+  "data": {
+    "page": {
+      "id": "6587cfa80c35ed001f99d416",
+      "data": "{\"content\":[{\"name\":\"Section\",\"content\":[{\"name\":\"Container\",\"holder\":\"root\",\"type\":\"container\",\"content\":[{\"symbolId\":\"3rqctnnf\"}],\"id\":\"en1fi8g3\",\"_elType\":\"CONTAINER\",\"component_path\":\"container\",\"style\":{\"display\":\"flex\",\"flexDirection\":\"row\",\"flexWrap\":\"wrap\",\"justifyContent\":\"flex-start\",\"alignItems\":\"flex-start\",\"gap\":\"0px\",\"padding\":[[\"top\",\"10px\"],[\"right\",\"10px\"],[\"bottom\",\"10px\"],[\"left\",\"10px\"]],\"flexBasis\":\"100%\"}}],\"id\":\"44zeniqo\",\"type\":\"section\",\"_elType\":\"SECTION\",\"component_path\":\"section\",\"pseudoClass\":{\"before\":{\"style\":{\"__gradientType\":\"simple\"}}}},{\"name\":\"Section\",\"content\":[{\"name\":\"Container\",\"holder\":\"root\",\"type\":\"container\",\"content\":[],\"id\":\"x9yzp78y\",\"_elType\":\"CONTAINER\",\"component_path\":\"container\",\"style\":{\"display\":\"flex\",\"flexDirection\":\"row\",\"flexWrap\":\"wrap\",\"padding\":[[\"top\",\"10px\"],[\"left\",\"10px\"],[\"right\",\"10px\"],[\"bottom\",\"10px\"]],\"flexBasis\":\"100%\",\"justifyContent\":\"center\"}}],\"id\":\"juo172bd\",\"type\":\"section\",\"_elType\":\"SECTION\",\"component_path\":\"section\",\"pseudoClass\":{\"before\":{\"style\":{\"__gradientType\":\"simple\"}}}}]}"
+    }
+  }
+}

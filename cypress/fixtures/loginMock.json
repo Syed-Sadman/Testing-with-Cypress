@@ -1,0 +1,19 @@
+{
+  "data": {
+    "login": {
+      "token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyY2QwYzkwOGI1MzdhMDAxZTIwZmE1NiIsInBsYXRmb3JtIjoiZG9yaWsiLCJzaXRlSWQiOiI2MTIzZWU1MzA4ZjE3ODgyYzVkZDExNDMiLCJzdGF0dXMiOiJhY3RpdmUiLCJyb2xlIjoic3VwZXJfdXNlciIsInBsYW4iOiJCVVNJTkVTU18zIiwiaWF0IjoxNzA1MjMyMjMyLCJleHAiOjE3MDUyMzI1MzJ9.zueKJymHGR-9jCGMolHwDuvKW40gIWpzhyuDPPDMgLBS5S_req6R0O-3dfqihGDV-xC6Yf1pF_VE_evPaGc8WAAmZjZvj5wg9LLTXY-q82TLI8LFXxzEI3z5eEBSr4XqafJntjDZsjxzY_mFKhr4IHZ3329vXqKEoGvFVFaX92oHpyj9_qkxXDVdChsL256EL247PpDp_nGsLbAdJdJXhJsRqDAAb0xJPr88n81COOx2WxMqao2ES0t-SzJ07WR5r-LG1xc9_7GnoamgGozfjMsUhTnBWCiavaelIwU5SsvsIMJ8AvRen1u_CIOI7Ct9KjQsXqnat_DD66jC8WcOiVl_BpxDknJmY3WLgPpsyEpb6Aq2LIjscX8TB7APofo5la_uc9pMiHAvs8pJw3j5WdLtk2Aj75WEHOeLHWuVKSbclpwkdMg2o6FHrzJNLsWZBXY-BzB7aVYIbDo0BafJpSucZmkd5qzc8KeFWQFAUX6oqiJvtXL8Tx7ZuumEdO3usQT4LltSgLtpS-LLf6id53hQT0jNq1pTVg_ia-98FPFad_hzXPzYtA0A1Bc_zxza8ZWtaCV8sPNTnXChHxVFxnLYwM1C3QpWV8VarQ91RDN7FOhcEahNkZkoNJLv5VYbD2YSoEhyuJuvRhI-QOPTNELMVChv3p-hSG83Jx5F4o0",
+      "success": true,
+      "message": "Logged in successfully!",
+      "expiresAt": 1705232532,
+      "user": {
+        "id": "62cd0c908b537a001e20fa56",
+        "role": "super_user",
+        "name": "Syed test",
+        "email": "sadman.syed@yahoo.com",
+        "avatar": "",
+        "createdAt": "2022-07-12T05:54:24.000Z",
+        "meta": null
+      }
+    }
+  }
+}

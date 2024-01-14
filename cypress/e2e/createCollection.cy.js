@@ -65,3 +65,9 @@ describe("Collection Creation Spec", () => {
     //     .type("test post 102");
   });
 });
+
+cy.intercept("POST", "/api", (req) => {
+  if (req.body.operationName === "operationName") {
+    req.reply({ fixture: "mockData.json" });
+  }
+});
